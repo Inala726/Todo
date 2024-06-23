@@ -107,7 +107,7 @@ const Todo = () => {
                     type="text"
                     value={editText}
                     onChange={(e) => setEditText(e.target.value)}
-                    className="flex-1 h-[30px] bg-transparent outline-none text-xl"
+                    className="flex justify-between h-[30px] bg-transparent outline-none text-xl w-full"
                   />
                   <button
                     type="submit"
