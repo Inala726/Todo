@@ -88,10 +88,10 @@ const Todo = () => {
             className="p-2 bg-transparent outline-none text-xl"
             placeholder="Add a todo"
           />
-          <button className="px-3 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
+          <button className="px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
             Add
           </button>
-          <button className="hidden max-sm:block px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:text-2xl">
+          <button className="hidden max-sm:block px-3 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:text-2xl">
             +
           </button>
         </form>
