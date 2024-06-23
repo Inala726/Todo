@@ -91,7 +91,7 @@ const Todo = () => {
           <button className="px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
             Add
           </button>
-          <button className="hidden max-sm:block px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:text-2xl">
+          <button className="hidden max-sm:block px-4 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:text-2xl">
             +
           </button>
         </form>
