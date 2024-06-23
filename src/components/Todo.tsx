@@ -79,7 +79,7 @@ const Todo = () => {
         </span>
         <form
           onSubmit={handleSubmit}
-          className="flex items-center justify-between rounded-lg bg-inherit border-2 border-[#111] w-[max-content]"
+          className="flex items-center justify-between rounded-lg bg-inherit border-2 border-[#111] w-full"
         >
           <input
             type="text"
@@ -88,7 +88,7 @@ const Todo = () => {
             className="p-2 bg-transparent outline-none text-xl"
             placeholder="Add a todo"
           />
-          <button className="px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
+          <button className="px-3 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
             Add
           </button>
           <button className="hidden max-sm:block px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:text-2xl">
