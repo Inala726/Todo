@@ -85,7 +85,7 @@ const Todo = () => {
             type="text"
             value={items}
             onChange={(e) => setItems(e.target.value)}
-            className="p-2 bg-transparent outline-none text-xl"
+            className="p-2 bg-transparent outline-none text-xl w-[90%]"
             placeholder="Add a todo"
           />
           <button className="px-7 h-[50px] text-xl bg-[#111] transition ease-in-out duration-300 max-sm:hidden">
